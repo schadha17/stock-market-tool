@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+  <div id="container-1">
+        <h2> STOCK MARKET ANALYSIS</h2>
+        <div id="container-2">
+            <p>Enter ticker symbol:</p>
+            <form id="submitTickerForm" action="/viewstockdata" method="get">
+              <input name="ticker" type="text" class="searchTerm" placeholder="Enter ticker (Ex: AAPL) ...">
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+        </div>
+  </div>        
+</body>
+</html>

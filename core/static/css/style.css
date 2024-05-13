@@ -1,0 +1,74 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#container-1 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    flex-direction: column; /* Set flex direction to column */
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#container-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    margin: 0px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#container-2 > form {
+    display: flex;
+    flex-direction: row; /* Change to column layout to center vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    /* border: 1px solid red; */
+    margin: 0;
+    width: 25%;
+}
+
+.searchTerm {
+    width: 150%;
+    border: 3px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    /*border-radius: 5px 0 0 5px;*/
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    /*color: #9DBFAF;*/
+    /*color: green;*/
+    justify-content: center;
+}
+
+.searchTerm:focus{
+    color: black;
+}
+
+.searchButton {
+    /* display: flex; */
+    width: 40px;
+    height: 36px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
